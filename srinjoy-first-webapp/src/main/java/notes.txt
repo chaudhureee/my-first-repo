@@ -1,0 +1,21 @@
+http://localhost:8080/spring-mvc/login
+
+spring-mvc
+DispatcherServlet -> Front Controller
+
+"login"
+ 
+
+/login -> Login Controller (Handler)
+Hello World
+
+login.jsp -> View
+
+View Resolver
+login -> /WEB-INF/views/login.jsp
+
+return login.jsp
+
+prefix -> /WEB_INF/views/login
+suffix -> .jsp
+/WEB_INF/views/.jsp
